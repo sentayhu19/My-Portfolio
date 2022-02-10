@@ -9,6 +9,9 @@ nav {
 .hamburger {
   float: right;
   margin-left: 60%;
+  position: absolute;
+  top: 2%;
+  left: 25%;
 }
 
 body {
@@ -30,7 +33,6 @@ section {
   font-weight: bold;
   font-style: normal;
   line-height: 52px;
-  display: flex;
   align-items: center;
   color: #172b4d;
 }
@@ -73,9 +75,4 @@ section {
   left: 24px;
   top: 276px;
   color: #344563;
-}
-.hamburger {
-  position: absolute;
-  top: 2%;
-  left: 25%;
 }
