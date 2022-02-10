@@ -1,0 +1,69 @@
+nav {
+  display: flex;
+  margin: 20px;
+}
+.hamburger {
+  float: right;
+  margin-left: 60%;
+}
+body {
+  background-image: url("assets/images/shapesbg.svg");
+  background-repeat: no-repeat;
+}
+section {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+  width: 100%;
+  height: 100%;
+}
+.header {
+  font-size: 44px;
+  font-weight: bold;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  color: #172b4d;
+}
+.lets-connect:hover {
+  color: blue;
+}
+.connect-via {
+  display: flex;
+  gap: 10px;
+}
+.intro {
+  position: static;
+  width: 327px;
+  height: 146px;
+  left: 24px;
+  top: 276px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+}
+.lets-connect:hover {
+  position: static;
+  width: 117px;
+  height: 24px;
+  left: 0px;
+  top: 0px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 8px;
+}
