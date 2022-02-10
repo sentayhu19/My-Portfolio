@@ -1,5 +1,5 @@
 * {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 nav {
@@ -12,7 +12,7 @@ nav {
   margin-left: 60%;
 }
 
-body {
+section {
   background-image: url("assets/images/shapesbg.svg");
   background-repeat: no-repeat;
 }
@@ -68,5 +68,81 @@ section {
   font-weight: normal;
   font-size: 16px;
   line-height: 24px;
+  color: #344563;
+}
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  display: flex;
+  margin: 20px;
+}
+
+.hamburger {
+  float: right;
+  margin-left: 60%;
+}
+
+body {
+  background-image: url("assets/images/shapesbg.svg");
+  background-repeat: no-repeat;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+}
+
+.header {
+  font-size: 44px;
+  font-weight: bold;
+  font-style: normal;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  color: #172b4d;
+}
+
+.lets-connect {
+  position: static;
+  width: 117px;
+  height: 24px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.lets-connect:hover {
+  color: blue;
+}
+
+.connect-via {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 15px;
+  padding-left: 10px;
+}
+
+.intropara {
+  position: static;
+  width: 327px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: normal;
+  height: 146px;
+  line-height: 24px;
+  left: 24px;
+  top: 276px;
   color: #344563;
 }
