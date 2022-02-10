@@ -3,7 +3,6 @@
 }
 
 nav {
-  display: flex;
   margin: 20px;
 }
 
@@ -26,6 +25,7 @@ section {
 }
 
 .header {
+  display: flex;
   font-size: 44px;
   font-weight: bold;
   font-style: normal;
@@ -37,7 +37,7 @@ section {
 
 .lets-connect {
   position: static;
-  width: 117px;
+  width: 150px;
   height: 24px;
   font-style: normal;
   font-weight: 500;
@@ -73,4 +73,9 @@ section {
   left: 24px;
   top: 276px;
   color: #344563;
+}
+.hamburger {
+  position: absolute;
+  top: 2%;
+  left: 25%;
 }
