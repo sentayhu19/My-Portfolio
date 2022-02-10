@@ -1,6 +1,5 @@
-# sentayhu19-Portfolio-setup-and-mobile-version-skeleton
 ![](https://img.shields.io/badge/Microverse-blueviolet)
-# Portofolio
+#Portfolio-setup-and-mobile-version-skeleton
  
 > Desgining a portofolio 
 
