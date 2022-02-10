@@ -1,7 +1,9 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
-#Portfolio-setup-and-mobile-version-skeleton
- 
-> Desgining a portofolio 
+
+# Portfolio-setup-and-mobile-version-skeleton
+
+> This project is about building portofolio page mobile version using html and css
+
 
 ## Built With
 
@@ -9,14 +11,14 @@
 -Webhint (A customizable linting tool that helps you improve your site's accessibility, speed, cross-browser compatibility, and more by checking your code for best practices and common errors).
 -Stylelint (A mighty, modern linter that helps you avoid errors and enforce conventions in your styles).
 
+### Prerequisites
+## VScode or other editor
 
-# Getting Started
+### Install
 
 #### Cloning the project
 
 git clone  https://github.com/sentayhu19/portofolio-setup-nd-mobile-version-skeleton <Your-Build-Directory>
-
-
 ## Getting packages and debuging with Stylelint
 
 npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
@@ -36,34 +38,31 @@ npm install --save-dev hint@6.x
 
 npx hint . 
 
-### Prerequisites
-##VSCode or any other equivalent code editor
 
-##node package manager
-### Licence
-MIT License
-##### from parent source directory
-Copyright (c) 2022 Sentayhu
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+## Authors
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+👤 **Sentayhu Berhanu**
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+- GitHub: [@sentayhu19](https://github.com/sentayhu19)
+- LinkedIn: [sentayhu-berhanu](https://www.linkedin.com/in/sentayhu-berhanu-6376579a/)
 
 
 
-## Author
- **Sentayhu Berhanu Robi** - [sentayhhu19](https://github.com/sentayhu19)
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/sentayhu19/Portfolio-setup-and-mobile-version-skeleton/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+-This project was inspired by Microverse](https://www.microverse.org
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.![](https://img.shields.io/badge/Microverse-blueviolet)
