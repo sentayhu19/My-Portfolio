@@ -13,6 +13,7 @@ nav {
   top: 2%;
   left: 25%;
 }
+
 .works1 {
   background-color: #dfe1e6;
   display: grid;
@@ -59,7 +60,6 @@ nav {
   color: #396df2;
   flex: none;
   order: 0;
-  flex-grow: 0;
   margin: 0px 22px;
   margin-top: -30px;
 }
@@ -77,7 +77,6 @@ nav {
 .discpara {
   width: 295px;
   height: 76px;
-  left: 0px;
   top: 92px;
   color: #344563;
   flex: none;
@@ -104,11 +103,9 @@ h1 {
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin: 0px 0px;
 }
 
 .list1 {
-  font-family: Poppins;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -117,7 +114,6 @@ h1 {
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin: 0px 0px;
 }
 
 .card-info {
@@ -155,7 +151,7 @@ h1 {
 }
 
 .ellipse {
-  border: 1px solid #ffffff;
+  border: 1px solid #fff;
   width: 48px;
   height: 48px;
   left: 12px;
