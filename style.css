@@ -37,52 +37,81 @@ nav {
   background: white;
   padding-bottom: 142px;
   padding-top: 76px;
+  display: flex;
+  flex-direction: row;
+}
+
+@media (max-width: 800px) {
+  .worksec1 {
+    flex-direction: column;
+  }
 }
 
 .cardpic {
-  margin: 25px;
+  margin: 19px;
   margin-top: -40px;
 }
 
 .project1-btn {
   position: static;
-  width: 110px;
-  height: 40px;
+  width: 124px;
+  height: 48px;
   font-style: normal;
-  border-radius: 6px;
+  padding: 12px;
+  border-radius: 8px;
   font-weight: 380;
+  background: #ffffff;
   font-size: 17px;
   line-height: 24px;
+  box-sizing: border-box;
   display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
   color: #396df2;
   flex: none;
-  order: 0;
   margin: 22px;
-  margin-top: -30px;
+  margin-top: -66px;
+  border: 1px solid #6070ff;
 }
 
 .lang {
-  margin-top: -40px;
+  display: flex;
+  margin-top: -90px;
+  text-align: center;
   color: #6070ff;
-  height: 20px;
+  flex: none;
+  flex-direction: row;
+  height: 24px;
   background: #ebebff;
+  background-size: cover;
   border-radius: 8px;
   font-size: 12px;
-  margin-left: 19px;
+  margin-left: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  align-items: center;
 }
 
 .discpara {
-  width: 295px;
-  height: 76px;
   top: 92px;
   color: #344563;
   flex: none;
   order: 1;
   flex-grow: 0;
-  margin-left: 30px;
+  margin-left: 28px;
+  width: 327px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: normal;
+  height: 146px;
+  line-height: 24px;
+  left: 24px;
+  top: 276px;
+  color: #344563;
+  margin-top: -4px;
 }
 
 h1 {
@@ -123,6 +152,7 @@ h1 {
 
 .tonic1 {
   margin-left: 23px;
+  margin-top: -20px;
 }
 
 .counters {
@@ -138,16 +168,26 @@ h1 {
   flex: none;
   order: 0;
   flex-grow: 0;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  color: #172b4d;
 }
 
 .get-btn {
-  width: 148px;
+  width: 150px;
   margin-left: 30px;
+  margin-top: -10px;
 }
 
 .con,
 .via {
   margin-left: 30px;
+  margin-top: -70px !important;
+}
+.via {
+  margin-top: -30px !important;
 }
 
 .ellipse {
@@ -247,9 +287,10 @@ footer {
   margin-left: -20%;
 }
 
-body {
+.main {
   background-image: url("assets/images/shapesbg.svg");
   background-repeat: no-repeat;
+  height: 530px;
 }
 
 section {
@@ -272,7 +313,7 @@ section {
 
 .lets-connect {
   position: static;
-  width: 150px;
+  width: 210px;
   height: 24px;
   font-style: normal;
   font-weight: 500;
@@ -282,6 +323,7 @@ section {
   flex: none;
   order: 0;
   flex-grow: 0;
+  margin-top: -30px;
 }
 
 .lets-connect:hover {
@@ -293,8 +335,8 @@ section {
   display: flex;
   flex-wrap: wrap;
   gap: 16px;
-  margin-top: 15px;
-  padding-left: 10px;
+  margin-top: -10px;
+  padding-left: 5px;
 }
 
 .intropara {
