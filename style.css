@@ -60,7 +60,7 @@ nav {
   padding: 12px;
   border-radius: 8px;
   font-weight: 380;
-  background: #ffffff;
+  background: #fff;
   font-size: 17px;
   line-height: 24px;
   box-sizing: border-box;
@@ -96,7 +96,6 @@ nav {
 }
 
 .discpara {
-  top: 92px;
   color: #344563;
   flex: none;
   order: 1;
@@ -110,7 +109,6 @@ nav {
   line-height: 24px;
   left: 24px;
   top: 276px;
-  color: #344563;
   margin-top: -4px;
 }
 
@@ -186,6 +184,7 @@ h1 {
   margin-left: 30px;
   margin-top: -70px !important;
 }
+
 .via {
   margin-top: -30px !important;
 }
