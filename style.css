@@ -212,8 +212,9 @@ h1 {
 }
 
 .footerpara {
-  color: wheat;
+  color: #EBEBFF;
   margin-left: 23px;
+  font-style: normal;
 }
 
 .contact1 {
