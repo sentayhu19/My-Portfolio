@@ -315,3 +315,19 @@ section {
   top: 276px;
   color: #344563;
 }
+form
+{
+  margin-left: -20%;
+}
+
+
+footer {
+  background-image: url("./assets/images/Contact_me.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 24px;
+  margin-top: 113.8px;
+}
