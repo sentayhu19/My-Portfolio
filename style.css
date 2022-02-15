@@ -211,17 +211,6 @@ h1 {
   line-height: 20px;
 }
 
-footer {
-  background-image: url("./assets/images/Contact_me.svg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding: 24px;
-  margin-top: 113.8px;
-}
-
 .footerpara {
   color: wheat;
   margin-left: 23px;
@@ -260,30 +249,6 @@ footer {
 
 .mv3 {
   margin-left: 20px;
-}
-
-.sub-btn {
-  position: static;
-  width: 120px;
-  height: 40px;
-  font-style: normal;
-  border-radius: 6px;
-  font-weight: 380;
-  font-size: 17px;
-  line-height: 24px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #396df2;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  margin-top: -10px;
-}
-
-.form-continer {
-  margin-left: -20%;
 }
 
 .main {
