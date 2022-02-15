@@ -316,7 +316,6 @@ section {
   color: #344563;
 }
 
-
 footer {
   background-image: url("./assets/images/Contact_me.svg");
   background-size: cover;
@@ -326,7 +325,7 @@ footer {
   margin-top: 113.8px;
 }
 
-.contact {
+.contact1 {
   text-align: center;
 }
 
