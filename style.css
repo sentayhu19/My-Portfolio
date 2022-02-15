@@ -254,6 +254,7 @@ h1 {
 .mv4 {
   margin-right: 200px;
 }
+
 .main {
   background-image: url("assets/images/shapesbg.svg");
   background-repeat: no-repeat;
@@ -391,7 +392,7 @@ form {
   color: white;
   background: #2230d2;
 }
-/*   */
+
 .form-button:hover {
   background: #6070ff;
   color: #fff;
