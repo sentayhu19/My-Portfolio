@@ -258,7 +258,7 @@ h1 {
 }
 
 .main {
-  background-image: url("assets/images/shapesbg.svg");
+  background-image: url('assets/images/shapesbg.svg');
   background-repeat: no-repeat;
   height: 530px;
 }
