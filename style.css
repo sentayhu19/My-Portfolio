@@ -642,7 +642,7 @@ a {
     column-gap: 180px;
     width: 85%;
     height: 530px;
-    margin-left: 100px;
+    margin-left: -55px;
     border-radius: 9px;
     flex: none;
     flex-grow: 0;
@@ -787,6 +787,7 @@ a {
 
   .arrow {
     width: 50px;
+    margin-left: -5%;
   }
 
   .lang-arrow {
@@ -980,5 +981,13 @@ a {
 
   .desktop-mv-1 {
     margin-left: 183px;
+  }
+
+  .sk-mv {
+    margin-top: -24px;
+  }
+
+  .mv3 {
+    margin-left: 30px;
   }
 }
