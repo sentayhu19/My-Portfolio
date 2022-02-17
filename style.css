@@ -32,6 +32,22 @@ a {
     margin: -30px auto auto -40px;
   }
 
+  .fr,
+  .sk {
+    border-bottom: 1px solid #dfe1e6;
+    width: 75%;
+  }
+
+  .sty {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #000;
+  }
+
   .mobile-hidden {
     display: none;
   }
@@ -244,7 +260,7 @@ a {
   .language1 {
     list-style-type: none;
     margin-top: 50px;
-    margin-left: 20px;
+    margin-left: -5px;
   }
 
   .plang {
@@ -279,18 +295,20 @@ a {
   .lang1 {
     background-color: #f7f7f9;
     gap: 20px;
+    width: 100%;
   }
 
   .darrow2 {
     float: right;
-    left: 67%;
+    left: 84%;
     position: absolute;
-    margin-top: -30px;
+    margin-top: -45px;
   }
 
   .mv1 {
     margin-right: 230px;
     margin-top: -30px;
+    margin-left: 45px;
   }
 
   .mv2 {
@@ -300,6 +318,10 @@ a {
 
   .mv3 {
     margin-left: 20px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
   }
 
   .mv4 {
@@ -353,6 +375,7 @@ a {
 
   .social-mv {
     margin-top: 14px;
+    margin-left: -3px;
     padding-left: 1px;
   }
 
@@ -373,11 +396,11 @@ a {
     background-image: url("./assets/images/Contact_me.svg");
     background-size: cover;
     background-repeat: no-repeat;
-    height: 685px;
+    height: 710px;
     padding: 24px;
     margin-top: 113.8px;
     margin-left: -18px;
-    margin-right: -50px;
+    margin-right: -60px;
     margin-bottom: -52px;
   }
 
@@ -794,6 +817,11 @@ a {
     margin-left: -1%;
   }
 
+  .fr,
+  .sk {
+    border-bottom: 1px solid #dfe1e6;
+  }
+
   .lang-block {
     display: flex;
     flex-direction: column;
@@ -812,12 +840,12 @@ a {
 
   .lang-g1 {
     display: flex;
-    column-gap: 73%;
+    column-gap: 68%;
   }
 
   .lang-g2 {
     display: flex;
-    column-gap: 89%;
+    column-gap: 80%;
   }
 
   /* ***************** footer start ********************* */
@@ -928,5 +956,29 @@ a {
   .desktop-mv-social {
     margin-left: -45px;
     margin-top: -16px;
+  }
+
+  .sty {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #344563;
+  }
+
+  .desktop-size2 {
+    /* Width for the language section */
+    width: 60%;
+  }
+
+  .desktop-size1 {
+    /* Width for the about section */
+    width: 40%;
+  }
+
+  .desktop-mv-1 {
+    margin-left: 183px;
   }
 }
