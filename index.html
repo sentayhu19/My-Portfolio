@@ -165,7 +165,7 @@
 <img class="arrow" src="./assets/images/arrow.svg" alt="arrow">
 <ul class="language1">
     <li class="lang1">
-        <p class="plang">JavaScript</p>
+        <p class="plang mv4">JavaScript</p>
         <img class="ellipse connect-via" src="./assets/images/Ellipse_1_js.svg" alt="js">
         <br> </li> 
     <li class="lang1">
@@ -188,29 +188,20 @@
 </ul>
 </section>
 <footer class="footer-cont">
-    <h2 class="contact">Contact Me</h2>
+    <h2 class="contact1">Contact Me</h2>
     <p class="footerpara">
         If you have an application you are interested in developing,
          a feature that you need built or a project that needs coding. 
          I’d love to help with it 
     </p>
-    <form  action="actionpage.php" class='contactform' name="contactfrm" method="POST">
-       <div class="form-continer">
-            <input type="text" placeholder="Yeremias" required="required" maxlength="40" class="input"
-                name="name" id="name">
-        <br><br>
-            <input type="email" placeholder="natajayanj14@gmail.com" required="required" class="input"
-                name="email" id="email">
-            <br /><br>
-            <textarea placeholder="Write your Message here" required="required" class="input" maxlength="500"
-                name="message" id="description" cols="30" rows="10"></textarea>
-        <br><br>
-        <div class="submit-btn">
-            <button type="submit" class="sub-btn">  Get in Touch
-            </button>
-        </div>
-    </div>
-    </form>
+    <!-- form-->
+    <form action="https://formspree.io/f/xwkyolko" method="POST" class="form-cont">
+          <input type="text" placeholder="Yeremias" required="required" maxlength="40" class="input" name="name" id="name">
+          <input type="email" placeholder="natajayanj14@gmail.com" required="required" class="input" name="email" id="email">
+          <textarea placeholder="Write your Message here" required="required"
+           class="input" maxlength="500" name="message" id="description"></textarea>
+          <button class="form-button" type="submit" id="submit">Get in touch</button>
+      </form>
 </footer>
 </body>
 </html>
