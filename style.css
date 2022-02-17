@@ -289,7 +289,7 @@ a {
   .arrow {
     float: right;
     margin-top: -60px;
-    margin-left: 75%;
+    margin-left: 85%;
   }
 
   .lang1 {
@@ -787,7 +787,7 @@ a {
 
   .arrow {
     width: 50px;
-    margin-left: -5%;
+    margin-left: 22%;
   }
 
   .lang-arrow {
@@ -841,12 +841,12 @@ a {
 
   .lang-g1 {
     display: flex;
-    column-gap: 68%;
+    column-gap: 98%;
   }
 
   .lang-g2 {
     display: flex;
-    column-gap: 80%;
+    column-gap: 109%;
   }
 
   /* ***************** footer start ********************* */
