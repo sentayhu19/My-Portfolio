@@ -22,7 +22,7 @@ a {
   grid-gap: 10px;
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 780px) {
   /* for phone  * */
   .connect-via {
     list-style-type: none;
@@ -92,7 +92,7 @@ a {
   .cardpic {
     margin: 19px;
     margin-top: -40px;
-    width: 295px;
+    width: 95%;
   }
 
   .project1-btn {
@@ -399,9 +399,9 @@ a {
     height: 710px;
     padding: 24px;
     margin-top: 113.8px;
-    margin-left: -18px;
-    margin-right: -60px;
-    margin-bottom: -52px;
+    margin-left: -60px;
+    margin-right: -100px;
+    margin-bottom: -60px;
   }
 
   footer p {
@@ -499,7 +499,7 @@ a {
 }
 
 /****************** END of media for phone *********************************************************************/
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 780px) {
   body {
     overflow-x: hidden;
     width: 100%;
@@ -520,7 +520,7 @@ a {
   .container {
     display: flex;
     flex-direction: row;
-    column-gap: 76%;
+    column-gap: 70%;
     margin-top: 40px;
     margin-left: 50px;
   }
@@ -593,7 +593,7 @@ a {
 
   .cardpic1 {
     position: static;
-    width: 544px;
+    width: 95%;
     height: 448px;
     left: 24px;
     margin-left: 25px;
@@ -614,7 +614,7 @@ a {
     display: flex;
     flex-direction: row;
     column-gap: 120px;
-    width: 87%;
+    width: 76%;
     height: 530px;
     margin: 25px;
     border-radius: 9px;
@@ -623,7 +623,7 @@ a {
     background: white;
     padding-bottom: 142px;
     padding-top: 76px;
-    margin-left: 100px;
+    margin-left: 150px;
   }
 
   .worksf {
@@ -684,7 +684,7 @@ a {
     margin-top: 20px;
     flex-grow: 0;
     margin-left: 2px;
-    width: 367px;
+    width: 94%;
     font-size: 16px;
     font-style: normal;
     font-weight: normal;
@@ -787,7 +787,7 @@ a {
 
   .arrow {
     width: 50px;
-    margin-left: 22%;
+    margin-left: 2%;
   }
 
   .lang-arrow {
@@ -821,6 +821,7 @@ a {
   .fr,
   .sk {
     border-bottom: 1px solid #dfe1e6;
+    width: 600px;
   }
 
   .lang-block {
@@ -841,12 +842,12 @@ a {
 
   .lang-g1 {
     display: flex;
-    column-gap: 98%;
+    column-gap: 70%;
   }
 
   .lang-g2 {
     display: flex;
-    column-gap: 109%;
+    column-gap: 81%;
   }
 
   /* ***************** footer start ********************* */
@@ -989,5 +990,22 @@ a {
 
   .mv3 {
     margin-left: 30px;
+  }
+
+  .cardpic-rt {
+    position: static;
+    width: 95%;
+    height: 448px;
+    left: 24px;
+    top: 24px;
+    border-radius: 8px;
+  }
+
+  .worksf {
+    justify-self: left;
+  }
+
+  .main1 {
+    display: inline-block;
   }
 }
