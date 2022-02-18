@@ -625,12 +625,7 @@ a {
     padding-top: 76px;
     margin-left: 150px;
   }
-
-  .worksf {
-    display: flex;
-    flex-direction: column;
-  }
-
+  
   .aboutsf {
     display: flex;
     flex-direction: column;
@@ -1002,6 +997,8 @@ a {
   }
 
   .worksf {
+    display: flex;
+    flex-direction: column;
     justify-self: left;
   }
 
