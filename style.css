@@ -90,8 +90,8 @@ a {
   }
 
   .cardpic {
-    margin: 19px;
-    margin-top: -40px;
+    margin: 8px;
+    margin-top: -45px;
     width: 95%;
   }
 
@@ -194,7 +194,7 @@ a {
 
   .tonic1 {
     margin-left: 23px;
-    margin-top: -20px;
+    margin-top: -10px;
   }
 
   .counters {
@@ -593,10 +593,10 @@ a {
 
   .cardpic1 {
     position: static;
-    width: 95%;
+    width: 100%;
     height: 448px;
     left: 24px;
-    margin-left: 25px;
+    margin-left: 12px;
     top: 24px;
     border-radius: 8px;
     margin-top: -40px;
@@ -614,16 +614,14 @@ a {
     display: flex;
     flex-direction: row;
     column-gap: 120px;
-    width: 76%;
+    width: 86%;
     height: 530px;
     margin: 25px;
     border-radius: 9px;
-    flex: none;
-    flex-grow: 0;
     background: white;
     padding-bottom: 142px;
     padding-top: 76px;
-    margin-left: 150px;
+    margin-left: 120px;
   }
 
   head .aboutsf {
@@ -741,10 +739,6 @@ a {
     margin-top: -80px;
   }
 
-  .desktop-hidden {
-    display: none;
-  }
-
   .abouttxt {
     margin-left: 227px;
     flex: none;
@@ -843,6 +837,10 @@ a {
   .lang-g2 {
     display: flex;
     column-gap: 81%;
+  }
+
+  .mg {
+    margin-left: 2%;
   }
 
   /* ***************** footer start ********************* */
@@ -989,9 +987,10 @@ a {
 
   .cardpic-rt {
     position: static;
-    width: 95%;
+    width: 97%;
     height: 448px;
     left: 24px;
+    margin-left: 20px;
     top: 24px;
     border-radius: 8px;
   }
@@ -999,11 +998,28 @@ a {
   .worksf {
     display: flex;
     flex-direction: column;
-    justify-self: left;
+    flex-grow: 1;
+    flex-basis: 0;
+    column-width: 10%;
   }
 
   .main1 {
     display: inline-block;
+  }
+
+  .desktop-hidden {
+    display: none;
+    width: 0px;
+  }
+
+  .cardpic-r {
+    width: 100%;
+    height: 448px;
+    left: 24px;
+    margin-left: -10px;
+    top: 24px;
+    border-radius: 8px;
+    margin-top: -40px;
   }
 }
 
@@ -1101,10 +1117,10 @@ a {
 
   .cardpic1 {
     position: static;
-    width: 95%;
+    width: 100%;
     height: 448px;
     left: 24px;
-    margin-left: 25px;
+    margin-left: 12px;
     top: 24px;
     border-radius: 8px;
     margin-top: -40px;
@@ -1122,19 +1138,17 @@ a {
     display: flex;
     flex-direction: row;
     column-gap: 120px;
-    width: 76%;
+    width: 86%;
     height: 530px;
     margin: 25px;
     border-radius: 9px;
-    flex: none;
-    flex-grow: 0;
     background: white;
     padding-bottom: 142px;
     padding-top: 76px;
-    margin-left: 150px;
+    margin-left: 120px;
   }
 
-  .aboutsf {
+  head .aboutsf {
     display: flex;
     flex-direction: column;
   }
@@ -1249,10 +1263,6 @@ a {
     margin-top: -80px;
   }
 
-  .desktop-hidden {
-    display: none;
-  }
-
   .abouttxt {
     margin-left: 227px;
     flex: none;
@@ -1351,6 +1361,10 @@ a {
   .lang-g2 {
     display: flex;
     column-gap: 81%;
+  }
+
+  .mg {
+    margin-left: 2%;
   }
 
   /* ***************** footer start ********************* */
@@ -1497,9 +1511,10 @@ a {
 
   .cardpic-rt {
     position: static;
-    width: 95%;
+    width: 97%;
     height: 448px;
     left: 24px;
+    margin-left: 20px;
     top: 24px;
     border-radius: 8px;
   }
@@ -1507,10 +1522,27 @@ a {
   .worksf {
     display: flex;
     flex-direction: column;
-    justify-self: left;
+    flex-grow: 1;
+    flex-basis: 0;
+    column-width: 10%;
   }
 
   .main1 {
     display: inline-block;
+  }
+
+  .desktop-hidden {
+    display: none;
+    width: 0px;
+  }
+
+  .cardpic-r {
+    width: 100%;
+    height: 448px;
+    left: 24px;
+    margin-left: -10px;
+    top: 24px;
+    border-radius: 8px;
+    margin-top: -40px;
   }
 }
