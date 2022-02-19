@@ -474,9 +474,8 @@ a {
   }
 
   .main1 {
-    margin: auto auto 42px;
     max-width: 300px;
-    margin-left: auto;
+    margin: auto;
   }
 
   body {
@@ -604,6 +603,9 @@ a {
 
   .sz2  /*size of works1*/ {
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .cardpic {
@@ -616,12 +618,11 @@ a {
     column-gap: 120px;
     width: 86%;
     height: 530px;
-    margin: 25px;
+    margin: 25px 0 25px 0;
     border-radius: 9px;
     background: white;
     padding-bottom: 142px;
     padding-top: 76px;
-    margin-left: 120px;
   }
 
   head .aboutsf {
@@ -1003,9 +1004,9 @@ a {
     column-width: 10%;
   }
 
-  .main1 {
+  /* .main1 {
     display: inline-block;
-  }
+  } */
 
   .desktop-hidden {
     display: none;
@@ -1128,6 +1129,10 @@ a {
 
   .sz2  /*size of works1*/ {
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
   }
 
   .cardpic {
@@ -1140,12 +1145,11 @@ a {
     column-gap: 120px;
     width: 86%;
     height: 530px;
-    margin: 25px;
+    margin: 25px 0 25px 0;
     border-radius: 9px;
     background: white;
     padding-bottom: 142px;
     padding-top: 76px;
-    margin-left: 120px;
   }
 
   head .aboutsf {
@@ -1527,9 +1531,9 @@ a {
     column-width: 10%;
   }
 
-  .main1 {
+  /* .main1 {
     display: inline-block;
-  }
+  } */
 
   .desktop-hidden {
     display: none;
