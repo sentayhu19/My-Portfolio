@@ -591,14 +591,13 @@ a {
   }
 
   .cardpic1 {
-    position: static;
     width: 100%;
     height: 448px;
     left: 24px;
-    margin-left: 12px;
-    top: 24px;
+    object-fit: cover;
+    order: 1;
     border-radius: 8px;
-    margin-top: -40px;
+    margin-top: 30px;
   }
 
   .sz2  /*size of works1*/ {
@@ -615,14 +614,13 @@ a {
   .worksec1d {
     display: flex;
     flex-direction: row;
-    column-gap: 120px;
-    width: 86%;
-    height: 530px;
-    margin: 25px 0 25px 0;
-    border-radius: 9px;
-    background: white;
-    padding-bottom: 142px;
-    padding-top: 76px;
+    background: #fff;
+    border: 1px solid #dfe1e6;
+    box-sizing: border-box;
+    border-radius: 16px;
+    margin: 40px 42px;
+    width: 80%;
+    height: 496px;
   }
 
   head .aboutsf {
@@ -658,7 +656,7 @@ a {
     border-radius: 8px;
     font-weight: 380;
     background: #fff;
-    margin-top: -30px;
+    margin-top: 30px;
     font-size: 17px;
     line-height: 24px;
     box-sizing: border-box;
@@ -737,7 +735,7 @@ a {
 
   .desktop-mv-lang {
     margin-left: -35px;
-    margin-top: -80px;
+    margin-top: -100px;
   }
 
   .abouttxt {
@@ -986,41 +984,14 @@ a {
     margin-left: 30px;
   }
 
-  .cardpic-rt {
-    position: static;
-    width: 97%;
-    height: 448px;
-    left: 24px;
-    margin-left: 20px;
-    top: 24px;
-    border-radius: 8px;
-  }
-
   .worksf {
-    display: flex;
-    flex-direction: column;
-    flex-grow: 1;
-    flex-basis: 0;
-    column-width: 10%;
+    width: 100%;
+    flex: 1;
+    margin-left: 10px;
   }
-
-  /* .main1 {
-    display: inline-block;
-  } */
 
   .desktop-hidden {
     display: none;
-    width: 0px;
-  }
-
-  .cardpic-r {
-    width: 100%;
-    height: 448px;
-    left: 24px;
-    margin-left: -10px;
-    top: 24px;
-    border-radius: 8px;
-    margin-top: -40px;
   }
 }
 
@@ -1045,7 +1016,7 @@ a {
   .container {
     display: flex;
     flex-direction: row;
-    column-gap: 70%;
+    column-gap: 65%;
     margin-top: 40px;
     margin-left: 50px;
   }
@@ -1117,21 +1088,19 @@ a {
   }
 
   .cardpic1 {
-    position: static;
     width: 100%;
     height: 448px;
     left: 24px;
-    margin-left: 12px;
-    top: 24px;
+    object-fit: cover;
+    order: 1;
     border-radius: 8px;
-    margin-top: -40px;
+    margin-top: 30px;
   }
 
   .sz2  /*size of works1*/ {
     width: 100%;
     display: flex;
     flex-direction: column;
-    margin: auto;
     align-items: center;
   }
 
@@ -1142,14 +1111,13 @@ a {
   .worksec1d {
     display: flex;
     flex-direction: row;
-    column-gap: 120px;
-    width: 86%;
-    height: 530px;
-    margin: 25px 0 25px 0;
-    border-radius: 9px;
-    background: white;
-    padding-bottom: 142px;
-    padding-top: 76px;
+    background: #fff;
+    border: 1px solid #dfe1e6;
+    box-sizing: border-box;
+    border-radius: 16px;
+    margin: 40px 42px;
+    width: 80%;
+    height: 496px;
   }
 
   head .aboutsf {
@@ -1185,7 +1153,7 @@ a {
     border-radius: 8px;
     font-weight: 380;
     background: #fff;
-    margin-top: -30px;
+    margin-top: 30px;
     font-size: 17px;
     line-height: 24px;
     box-sizing: border-box;
@@ -1264,7 +1232,7 @@ a {
 
   .desktop-mv-lang {
     margin-left: -35px;
-    margin-top: -80px;
+    margin-top: -100px;
   }
 
   .abouttxt {
@@ -1513,40 +1481,13 @@ a {
     margin-left: 30px;
   }
 
-  .cardpic-rt {
-    position: static;
-    width: 97%;
-    height: 448px;
-    left: 24px;
-    margin-left: 20px;
-    top: 24px;
-    border-radius: 8px;
-  }
-
   .worksf {
-    display: flex;
-    flex-direction: column;
-    flex-grow: 1;
-    flex-basis: 0;
-    column-width: 10%;
+    width: 100%;
+    flex: 1;
+    margin-left: 10px;
   }
-
-  /* .main1 {
-    display: inline-block;
-  } */
 
   .desktop-hidden {
     display: none;
-    width: 0px;
-  }
-
-  .cardpic-r {
-    width: 100%;
-    height: 448px;
-    left: 24px;
-    margin-left: -10px;
-    top: 24px;
-    border-radius: 8px;
-    margin-top: -40px;
   }
 }
