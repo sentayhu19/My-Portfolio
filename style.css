@@ -1502,7 +1502,7 @@ a {
       #4481eb,
       #04befe,
       #3f86ed
-  );
+    );
   box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
 }
 
@@ -1533,7 +1533,6 @@ h1 {
 .menu li::before {
   content: "";
   display: block;
-  border: 0px solid transparent;
 }
 
 .menu li::after {
