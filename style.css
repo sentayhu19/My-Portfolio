@@ -1497,11 +1497,11 @@ a {
   color: white;
   background-image:
     linear-gradient(
-    to right,
-    #25aae1,
-    #4481eb,
-    #04befe,
-    #3f86ed
+      to right,
+      #25aae1,
+      #4481eb,
+      #04befe,
+      #3f86ed
   );
   box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
 }
@@ -1509,7 +1509,8 @@ a {
 h1 {
   text-align: center;
   color: white;
-  text-shadow: 0 1px 0 #efefef,
+  text-shadow:
+    0 1px 0 #efefef,
     0 2px 0 #efefef,
     0 3px 0 #efefef,
     0 4px 0 #efefef,
@@ -1528,21 +1529,21 @@ h1 {
   }
 }
 
-.menu li:after,
-.menu li:before {
+.menu li::after,
+.menu li::before {
   content: "";
   display: block;
   border: 0px solid transparent;
 }
 
-.menu li:after {
+.menu li::after {
   width: 0%;
   height: 80%;
   border-bottom: 2px solid black;
   transition: all 0.3s ease;
 }
 
-.menu li:before {
+.menu li::before {
   width: 120%;
   height: 0%;
   border-left: 2px solid black;
