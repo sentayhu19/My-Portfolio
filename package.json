@@ -4,7 +4,7 @@
   "description": "![](https://img.shields.io/badge/Microverse-blueviolet)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh-pages -d Portfolio-setup-and-mobile-version-skeleton"
   },
   "repository": {
     "type": "git",
@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/sentayhu19/Portfolio-setup-and-mobile-version-skeleton/issues"
   },
-  "homepage": "https://github.com/sentayhu19/Portfolio-setup-and-mobile-version-skeleton#readme",
+  "homepage": "https://sentayhu19/github.io/Portfolio-setup-and-mobile-version-skeleton",
   "devDependencies": {
     "hint": "^6.1.9",
     "stylelint": "^13.13.1",
