@@ -4,6 +4,9 @@
 
 > This project is about building portofolio page mobile version using html and css
 
+## Live demo 
+
+ <a href="https://sentayhu19.github.io/Portfolio-setup-and-mobile-version-skeleton/">View Live Demo</a>
 
 ## Built With
 
