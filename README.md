@@ -6,7 +6,7 @@
 
 ## Live demo 
 
- <a href="https://sentayhu19.github.io/Portfolio-setup-and-mobile-version-skeleton/">View Live Demo</a>
+[Live Demo Link](https://sentayhu19.github.io/Portfolio-setup-and-mobile-version-skeleton/)
 
 ## Built With
 
