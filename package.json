@@ -4,7 +4,7 @@
   "description": "![](https://img.shields.io/badge/Microverse-blueviolet)",
   "main": "index.js",
   "scripts": {
-    "deploy": "gh-pages"
+    "deploy": "gh-pages -d Portfolio-setup-and-mobile-version-skeleton"
   },
   "repository": {
     "type": "git",
