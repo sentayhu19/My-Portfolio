@@ -4,7 +4,7 @@
 
 > This project is about building portofolio page mobile version using html and css
 
-## Live demo 
+## Live demo
 
 [Live Demo Link](https://sentayhu19.github.io/Portfolio-setup-and-mobile-version-skeleton/)
 
@@ -15,20 +15,22 @@
 -Stylelint (A mighty, modern linter that helps you avoid errors and enforce conventions in your styles).
 
 ### Prerequisites
+
 ## VScode or other editor
 
 ### Install
 
 #### Cloning the project
 
-git clone  https://github.com/sentayhu19/portofolio-setup-nd-mobile-version-skeleton <Your-Build-Directory>
+git clone https://github.com/sentayhu19/portofolio-setup-nd-mobile-version-skeleton <Your-Build-Directory>
+
 ## Getting packages and debuging with Stylelint
 
 npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
 
 ##### For validation detection using Stylelint Run
 
-npx stylelint "**/*.{css,scss}"
+npx stylelint "\*_/_.{css,scss}"
 
 ##### from parent source directory
 
@@ -39,9 +41,7 @@ npm install --save-dev hint@6.x
 
 ##### For validation detection using Webhint Run
 
-npx hint . 
-
-
+npx hint .
 
 ## Authors
 
@@ -49,8 +49,6 @@ npx hint .
 
 - GitHub: [@sentayhu19](https://github.com/sentayhu19)
 - LinkedIn: [sentayhu-berhanu](https://www.linkedin.com/in/sentayhu-berhanu-6376579a/)
-
-
 
 ## 🤝 Contributing
 
