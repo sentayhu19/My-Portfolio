@@ -20,13 +20,22 @@
 <body>
     <main class="main1">
     <header class="container">
+        <div id="cover">
+            <a href="#" ><img id="coverItem" src="./assets/images/Icon%20-%20Cancel.png"></a>
+            <ul id="menu"> 
+                <li ><a href="#project" id="n1">Portofolio </a></li>
+                <li ><a href="#about" id="n1">About</a></li>
+                <li ><a href="#contact" id="n1">Contact</a></li>
+            </ul>
+        </div>
         <a class="my-logo" href="index.html">
         <img src="assets/images/My%20Logo.svg" alt="Portofolio logo"> 
         </a>
         <nav>
         <a href="#">
-        <img src="assets/images/burger.svg" alt="Hambugrer_menu" class="Hambugrer_menu">   
+        <img src="assets/images/burger.svg" alt="Hambugrer_menu" class="Hambugrer_menu" id="ham_menu">   
         </a>
+        
         <ul class="menu"> 
             <li class="n1"><a href="#">Portofolio </a></li>
             <li class="n1"><a href="#">About</a></li>
@@ -34,7 +43,7 @@
         </ul>
     </nav>
     </header>
-    <section class="main">
+    <section class="main" id="project">
         <br><br><br><br>
       <h1 class="header">I'am Sentayhu <br>  Glad to see <br>you!</h1>
       <p class="intropara">
@@ -188,7 +197,7 @@
     </div>
 </section>
 <br><br>
-<section  class="about">
+<section  class="about" id="about">
     <div class="aboutsec1d">   <!--Flex-->
     <div class="desktop-size1">  <!--Flex width-->
 <h2 class="abouttxt"> About<br> Myself</h2>
@@ -247,7 +256,7 @@
 </div>
 </div></div>
 </section>
-<footer class="footer-cont">
+<footer class="footer-cont" id="contact">
     <div class="footer-sec">
        <div> <br><br><br>
     <h2 class="contact1">Contact Me</h2> </div>
@@ -270,5 +279,6 @@
     </div>
 </footer>
 </main>
+<script src="./index.js"></script>
 </body>
 </html>

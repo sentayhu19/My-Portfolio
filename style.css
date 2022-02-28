@@ -31,7 +31,42 @@ a {
     gap: 16px;
     margin: -30px auto auto -40px;
   }
+  #cover {
+    overflow-y: auto;
+    transition: 0.6;
+    position: fixed;
+    background: #6070ff;
+    backdrop-filter: blur(10px);
+    opacity: 0.8;
+    background-size: cover;
+    z-index: 1;
+    top: 0px;
+    left: 0px;
+  }
+  #coverItem {
+    float: right;
+    display: none;
+    margin-right: 120px;
+    padding-top: 18px;
+  }
 
+  #menu {
+    display: none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    align-items: left;
+    list-style-type: none;
+    padding-top: 60px;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 50px;
+  }
+
+  #n1 {
+    color: white;
+  }
   .fr,
   .sk {
     border-bottom: 1px solid #dfe1e6;
@@ -1495,26 +1530,21 @@ a {
 /* Animations and transition portofolio sentayhu */
 .btn-hover:hover {
   color: white;
-  background-image:
-    linear-gradient(
-      to right,
-      #25aae1,
-      #4481eb,
-      #04befe,
-      #3f86ed
-    );
+  background-image: linear-gradient(
+    to right,
+    #25aae1,
+    #4481eb,
+    #04befe,
+    #3f86ed
+  );
   box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
 }
 
 h1 {
   text-align: center;
   color: white;
-  text-shadow:
-    0 1px 0 #efefef,
-    0 2px 0 #efefef,
-    0 3px 0 #efefef,
-    0 4px 0 #efefef,
-    0 30px 5px rgba(0, 0, 0, 0.1);
+  text-shadow: 0 1px 0 #efefef, 0 2px 0 #efefef, 0 3px 0 #efefef,
+    0 4px 0 #efefef, 0 30px 5px rgba(0, 0, 0, 0.1);
   animation: float 3s linear infinite;
   animation-direction: alternate;
 }
