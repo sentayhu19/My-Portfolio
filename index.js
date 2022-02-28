@@ -1,6 +1,6 @@
 const hamList = document.querySelector("#ham_menu");
 const section = document.querySelectorAll("#n1");
-const close = document.querySelector("#coverItem");
+const close = document.querySelectorAll("#coverItem");
 hamList.addEventListener("click", () => {
   const ham = document.getElementById("ham_menu");
   document.getElementById("cover").style.cssText =
