@@ -13,3 +13,10 @@ section.forEach((e) => {
     document.getElementById("cover").style.cssText = " width: 0%; height: 0%; ";
   });
 });
+close.addEventListener("click", function () {
+  document.getElementById("cover").style.cssText = " width: 0%; height: 0%; ";
+});
+
+
+
+
