@@ -17,16 +17,25 @@
 </script>
 
 </head>
-<body>
+<body id="body">
     <main class="main1">
     <header class="container">
+        <div id="cover" class="desktop-hidden">
+            <a href="#" ><img id="coverItem" src="./assets/images/Icon%20-%20Cancel.png" alt="Close Cover"></a>
+            <ul id="menu" class="desktop-hidden"> 
+                <li ><a href="#project" class="n2">Portofolio </a></li>
+                <li ><a href="#about" class="n2">About</a></li>
+                <li ><a href="#contact" class="n2">Contact</a></li>
+            </ul>
+        </div>
         <a class="my-logo" href="index.html">
         <img src="assets/images/My%20Logo.svg" alt="Portofolio logo"> 
         </a>
         <nav>
         <a href="#">
-        <img src="assets/images/burger.svg" alt="Hambugrer_menu" class="Hambugrer_menu">   
+        <img src="assets/images/burger.svg" alt="Hambugrer_menu" class="Hambugrer_menu" id="ham_menu">   
         </a>
+        
         <ul class="menu"> 
             <li class="n1"><a href="#">Portofolio </a></li>
             <li class="n1"><a href="#">About</a></li>
@@ -58,7 +67,7 @@
    <li> <a href="#"> <img src="assets//images/angellist.svg" alt="angellist"></a> </li>
 </ul>  </div> 
 </section>
-<section class="works1 sz sz2">
+<section class="works1 sz sz2" id="project">
     <div class="worksec1 worksec1d">
         <div class="worksf dsk-width1" >
     <img src="./assets/images/Snapshoot%20Portfolio.svg" class="cardpic" alt="pic">
@@ -188,7 +197,7 @@
     </div>
 </section>
 <br><br>
-<section  class="about">
+<section  class="about" id="about">
     <div class="aboutsec1d">   <!--Flex-->
     <div class="desktop-size1">  <!--Flex width-->
 <h2 class="abouttxt"> About<br> Myself</h2>
@@ -247,7 +256,7 @@
 </div>
 </div></div>
 </section>
-<footer class="footer-cont">
+<footer class="footer-cont" id="contact">
     <div class="footer-sec">
        <div> <br><br><br>
     <h2 class="contact1">Contact Me</h2> </div>
@@ -270,5 +279,6 @@
     </div>
 </footer>
 </main>
+<script src="./index.js"></script>
 </body>
 </html>

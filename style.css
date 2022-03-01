@@ -24,12 +24,58 @@ a {
 
 @media only screen and (max-width: 780px) {
   /* for phone  * */
+  .lang-arrow {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footer-bl {
+    padding-left: 17px;
+  }
+
   .connect-via {
     list-style-type: none;
     display: flex;
     flex-wrap: wrap;
     gap: 16px;
     margin: -30px auto auto -40px;
+  }
+
+  #cover {
+    overflow-y: auto;
+    position: fixed;
+    background: #6070ff;
+    opacity: 0.97;
+    background-size: cover;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    mix-blend-mode: multiply;
+    backdrop-filter: blur(6px);
+  }
+
+  #coverItem {
+    float: right;
+    display: none;
+    margin-right: 13%;
+    padding-top: 18px;
+  }
+
+  #menu {
+    display: none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    align-items: baseline;
+    list-style-type: none;
+    padding-top: 60px;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .n2 {
+    color: white;
   }
 
   .fr,
@@ -43,7 +89,6 @@ a {
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
-    display: flex;
     align-items: center;
     color: #000;
   }
@@ -288,8 +333,8 @@ a {
 
   .arrow {
     float: right;
-    margin-top: -60px;
-    margin-left: 85%;
+    margin-top: -40px;
+    margin-left: 45%;
   }
 
   .lang1 {
@@ -317,7 +362,6 @@ a {
   }
 
   .mv3 {
-    margin-left: 20px;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -400,7 +444,7 @@ a {
     padding: 24px;
     margin-top: 113.8px;
     margin-left: -60px;
-    margin-right: -100px;
+    width: 440px;
     margin-bottom: -60px;
   }
 
@@ -479,7 +523,6 @@ a {
   }
 
   body {
-    overflow-x: hidden;
     margin-left: -38px;
   }
 
