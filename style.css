@@ -40,6 +40,7 @@ a {
     gap: 16px;
     margin: -30px auto auto -40px;
   }
+
   #cover {
     overflow-y: auto;
     position: fixed;
@@ -47,8 +48,8 @@ a {
     opacity: 0.97;
     background-size: cover;
     z-index: 1;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
     mix-blend-mode: multiply;
     backdrop-filter: blur(6px);
   }
@@ -66,14 +67,14 @@ a {
     font-weight: 600;
     font-size: 32px;
     line-height: 44px;
-    align-items: left;
+    align-items: baseline;
     list-style-type: none;
     padding-top: 60px;
     flex-direction: column;
     gap: 20px;
   }
 
-  #n2 {
+  .n2 {
     color: white;
   }
 
