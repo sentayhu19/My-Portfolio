@@ -85,8 +85,8 @@ const popup_window = document.getElementById('popup_window');
 const popupCode = `
 <div class="worksec1 worksec1d" id="worksec1d">
     <div class="worksf">
-    <div class="popupHead">
-    <a href="#" ><img id="closeWindow" src="./assets/images/Enabled.svg" alt="Close Cover"></a>
+    <div id="popupHead">
+    <button onclick="closeWinfun()" id="closeWindow"><img id="close-img" src="./assets/images/Enabled.svg" alt="Close Cover"></button>
     <h2 class="desktop-hidden" id="title">${e.name}</h2>
     <br> </div>
     <div>
@@ -114,24 +114,21 @@ const popupCode = `
     </div>
     </div>
     `;
+
     popup_window.innerHTML = popupCode;
     document.getElementById('worksec1d').style.cssText = 'z-index: 3; margin-top: 10px; position:fixed; display: block; top:0px; width:80%; height: 720px; border:red solid 2px; border-radius: 16px; margin-left: 10%';
     document.getElementById('title').style.cssText = "margin-top: -30px; padding-bottom: 50px";
     document.getElementById('dev').style.cssText ="margin-top: -40px";
     document.getElementById('popup-btn').style.cssText ="padding-bottom: 170px";
     document.getElementById('technology').style.cssText ="padding-top: 170px";
-    document.getElementById('closeWindow').style.cssText ="float: right; padding-bottom: 10px";
-    document.getElementById('popupHead').style.cssText ="display: flex; justify-content: space-between;";
+    document.getElementById('closeWindow').style.cssText ="float: right; padding-bottom: 10px width: 24px; height: 24px; background-color: white; border: 0px";
+  //  document.getElementById('popupHead').style.cssText ="display: flex; justify-content: space-between;";
+  document.getElementById('close-img').style.cssText ="width:24px; height:24px"
   }
-  
-
-
   )
-  
 };
-const closeWindow=document.getElementById("closeWindow");
-closeWindow.addEventListener("click", function(){
+function closeWinfun() 
+ {
   document.getElementById('worksec1d').style.cssText = "display: none";
-  console.log("Close is clicked!")
-
-});
+  console.log("Close is clicked!");
+};
