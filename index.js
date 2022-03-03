@@ -24,28 +24,28 @@ const project = [
     name: 'Tonic',
     featuredImage: './assets/images/Snapshoot%20Portfolio.svg',
     discription:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-    technologies: ['HTML', 'CSS', 'JavaScript'],
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsumhan printer took a galley of type and scrambled it 1960s with the releawn printer ",
+    technologies: ['HTML', 'CSS', 'JavaScript','Ruby'],
     popBtn1: 'see live',
     popBtn2: 'see scource'
   },
 {
   id: 'p2',
   name: 'MultiPost stories',
-  featuredImage: './assets/images/Snapshoot%20Portfolio.svg',
+  featuredImage: './assets/images/Snapshoot%20Portfolio1.svg',
   discription:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-  technologies: ['HTML', 'CSS', 'JavaScript'],
+    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsumhan printer took a galley of type and scrambled it 1960s with the releawn printer ",
+  technologies: ['HTML', 'CSS', 'JavaScript','Ruby'],
   popBtn1: 'see live',
   popBtn2: 'see scource'
 
 },{
 id: 'p3',
 name: 'Tonic',
-featuredImage: './assets/images/Snapshoot%20Portfolio.svg',
+featuredImage: './assets/images/Snapshoot%20Portfolio2.svg',
 discription:
-  "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-technologies: ['HTML', 'CSS', 'JavaScript'],
+  "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsumhan printer took a galley of type and scrambled it 1960s with the releawn printer  ",
+technologies: ['HTML', 'CSS', 'JavaScript','Ruby'],
 popBtn1: 'see live',
 popBtn2: 'see scource'
 },
@@ -54,36 +54,26 @@ popBtn2: 'see scource'
   name: 'Multipost stories',
   featuredImage: './assets/images/Snapshoot%20Portfolio.svg',
   discription:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-  technologies: ['HTML', 'CSS', 'JavaScript'],
+    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsumhan printer took a galley of type and scrambled it 1960s with the releawn printer ",
+  technologies: ['HTML', 'CSS', 'JavaScript','Ruby'],
   popBtn1: 'see live',
   popBtn2: 'see scource'
 
 }
 ];
-  
-
 const p1 = document.querySelector('#p1');
-/*p1.addEventListener('click', () => {
-  console.log('See proj cl');
-  document.getElementById('worksec1d').style.cssText = 'z-index: 3; margin-top: 10px; position:fixed; display: block; top:0px; width:80%; height: 720px; border:red solid 2px; border-radius: 16px; margin-left: 10%';
-
-}); 
-   */
 function setpopup(btnID)
 {
-  console.log(btnID);
- // console.log(project.filter(project => project.id == btnID));
+ li='';
   project.filter(project => project.id == btnID).forEach((e)=>
   {
- /* li='';
-  project.technologies.forEach((project) =>
-  {
-    li+= `<li class="lang">${project}</li>`
-  });  */
 const popup_window = document.getElementById('popup_window');
+  e.technologies.forEach((project) =>
+  {
+    li+= `<li class="lang" id="lang1">${project}</li>`
+  });
 const popupCode = `
-<div class="worksec1 worksec1d" id="worksec1d">
+<div class="worksec1 worksec1d1" id="worksec1d">
     <div class="worksf">
     <div id="popupHead">
     <button onclick="closeWinfun()" id="closeWindow"><img id="close-img" src="./assets/images/Enabled.svg" alt="Close Cover"></button>
@@ -97,38 +87,42 @@ const popupCode = `
      </ul>
     </div>
      <div class="worksf dsk-width1" >
-        <img src=${e.featuredImage} class="cardpic" alt="pic">
-        <img src="./assets/images/card_1Snapshoot_Portfolio.svg" class="cardpic1" alt="pic">
+        <img src=${e.featuredImage} id="c1" alt="pic">
         </div>
+        <div class="pop-dsk-container">
      <div class="discription">
-       <p class="discpara">${e.discription}</p>
+       <p class="discpara" id="discparapop">${e.discription}</p>
      </div>
-     <div class="social-mv" id="technology">
-     <ul class="connect-via desktop-mv-lang">
-        <li>HTML</li>
+     <div id="pop-group-tech-live">
+     <div class="social-mv dsk-pop" id="technology">
+     <ul class="connect-via desktop-mv-lang ">
+        ${li}
      </ul> </div>
      <div id="popup-btn">
-     <button type="button" class="project1-btn btn-hover">${e.popBtn1} <img src="./assets/images/btniconexp.svg" alt="exp"></button>
-     <button type="button" class="project1-btn btn-hover">${e.popBtn2}<img src="./assets/images/btnicongithub.svg" alt="exp"></button>
+     <button type="button" class="project1-btn btn-hover" id="btn-project">${e.popBtn1} <img src="./assets/images/btniconexp.svg" alt="exp"></button>
+     <button type="button" class="project1-btn btn-hover id="btn-project">${e.popBtn2}<img src="./assets/images/btnicongithub.svg" alt="exp"></button>
     </div>
     </div>
+    </div>
+    <div>
     </div>
     `;
-
     popup_window.innerHTML = popupCode;
-    document.getElementById('worksec1d').style.cssText = 'z-index: 3; margin-top: 10px; position:fixed; display: block; top:0px; width:80%; height: 720px; border:red solid 2px; border-radius: 16px; margin-left: 10%';
-    document.getElementById('title').style.cssText = "margin-top: -30px; padding-bottom: 50px";
-    document.getElementById('dev').style.cssText ="margin-top: -40px";
-    document.getElementById('popup-btn').style.cssText ="padding-bottom: 170px";
-    document.getElementById('technology').style.cssText ="padding-top: 170px";
-    document.getElementById('closeWindow').style.cssText ="float: right; padding-bottom: 10px width: 24px; height: 24px; background-color: white; border: 0px";
-  //  document.getElementById('popupHead').style.cssText ="display: flex; justify-content: space-between;";
-  document.getElementById('close-img').style.cssText ="width:24px; height:24px"
+     
+  document.getElementById('title').style.cssText = "display: block;";
+  document.getElementById('technology').style.cssText ="padding-top: 430px";
+  document.getElementById('closeWindow').style.cssText ="float: right; padding-bottom: 10px width: 24px; height: 24px; background-color: white; border: 0px";
+  document.getElementById('cover').style.cssText = 'display: block; z-index: 3; width: 100%; height: 100%; background: #C1C7D0;';
+  document.getElementById('menu').style.cssText = 'display: none'; 
+  document.getElementById('body').style.cssText = 'overflow: hidden;';
+  document.getElementById('btn-project').style.cssText = 'justify-content: space-between;';
+ document.getElementById("c1").style.cssText="display: block; margin: 8px; margin-top: -45px; width: 95%;";
   }
   )
 };
 function closeWinfun() 
  {
   document.getElementById('worksec1d').style.cssText = "display: none";
-  console.log("Close is clicked!");
+  document.getElementById('cover').style.cssText = 'display: none'; 
+  document.getElementById('body').style.cssText = 'overflow: none;';
 };

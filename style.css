@@ -24,16 +24,58 @@ a {
 
 @media only screen and (max-width: 780px) {
   /* for phone  * */
+
+  #overlay {
+    display: none;
+  }
+
+  #dev {
+    padding-bottom: 60px;
+    margin-top: -70px;
+  }
+
+  #worksec1d {
+    overflow: auto;
+    background-color: white;
+    z-index: 4;
+    margin-top: 10px;
+    position: fixed;
+    border: red solid 2px;
+    border-radius: 16px;
+    margin-left: 20%;
+    top: 0;
+    display: block;
+    width: 76%;
+    height: 97%;
+  }
+
+  #discparapop {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    height: 100px;
+    line-height: 24px;
+    width: 88%;
+  }
+
+  #title {
+    margin-top: -30px;
+    padding-bottom: 50px;
+  }
+
   .lang-arrow {
     display: flex;
     justify-content: space-between;
   }
+
   #popup-btn {
     display: flex;
-    justify-content: space-between;
-  }
-  #worksec1d {
-    display: none;
+    padding-bottom: 3px;
+    flex-grow: 0;
+    order: 1;
+    padding-top: 1px;
+    justify-content: space-evenly;
+    gap: 1%;
   }
 
   .footer-bl {
@@ -451,7 +493,7 @@ a {
     padding: 24px;
     margin-top: 113.8px;
     margin-left: -60px;
-    width: 368px;
+    width: 440px;
     margin-bottom: -60px;
   }
 
@@ -554,6 +596,11 @@ a {
     width: 100%;
   }
 
+  #close-img {
+    width: 34px;
+    height: 34px;
+  }
+
   .main {
     background-image: url("assets/images/deskHeaderbg.png");
     background-size: 100%;
@@ -640,6 +687,23 @@ a {
     margin-top: 10px;
   }
 
+  #worksec1d {
+    justify-content: center;
+    overflow: auto;
+    background-color: white;
+    z-index: 4;
+    margin-top: 10px;
+    position: fixed;
+    border: red solid 2px;
+    border-radius: 16px;
+    margin-left: 8%;
+    top: 0;
+    display: block;
+    width: 77%;
+    height: 720px;
+    margin-right: auto;
+  }
+
   .cardpic1 {
     width: 100%;
     height: 448px;
@@ -658,7 +722,41 @@ a {
   }
 
   .cardpic {
+    height: 448px !important;
+    width: 100%;
+    margin-top: 30px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+
+  #c1 {
     display: none;
+    width: 100%;
+    margin-top: 32px !important;
+    height: 370px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+
+  #title {
+    top: 0;
+  }
+
+  #popup_window {
+    overflow: auto;
+  }
+
+  #cover {
+    position: fixed;
+    overflow: auto;
+    background: #6070ff;
+    opacity: 0.97;
+    background-size: cover;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    mix-blend-mode: multiply;
+    backdrop-filter: blur(6px);
   }
 
   .worksec1d {
@@ -786,6 +884,22 @@ a {
   .desktop-mv-lang {
     margin-left: -35px;
     margin-top: -100px;
+  }
+
+  #popup-btn {
+    padding-right: 80px;
+    display: flex;
+    padding-bottom: 200px;
+    flex-grow: 0;
+    order: 1;
+    padding-top: 0;
+    justify-content: space-evenly;
+    gap: 10%;
+  }
+
+  #dev {
+    justify-content: flex-start;
+    margin-left: -38px;
   }
 
   .abouttxt {
@@ -926,6 +1040,14 @@ a {
     margin: -10px 27px 30px 2px;
   }
 
+  .dsk-pop {
+    gap: 16px;
+    padding-top: 1% !important;
+    margin-top: 160px;
+    padding-left: 0;
+    width: 80%;
+  }
+
   textarea {
     height: 170px;
     background: #fff;
@@ -938,6 +1060,28 @@ a {
     line-height: 20px;
     color: #b3bac5;
     padding-left: 16px;
+  }
+
+  .pop-dsk-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #discparapop {
+    flex: 2;
+    width: 92%;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: normal;
+    height: 146px;
+    line-height: 24px;
+  }
+
+  #pop-group-tech-live {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    column-gap: 1%;
   }
 
   .form-button {
@@ -1066,7 +1210,7 @@ a {
   .container {
     display: flex;
     flex-direction: row;
-    column-gap: 65%;
+    column-gap: 70%;
     margin-top: 40px;
     margin-left: 50px;
   }
@@ -1075,6 +1219,23 @@ a {
     display: flex;
     list-style-type: none;
     gap: 20px;
+  }
+
+  #worksec1d {
+    justify-content: center;
+    overflow: auto;
+    background-color: white;
+    z-index: 4;
+    margin-top: 10px;
+    position: fixed;
+    border: red solid 2px;
+    border-radius: 16px;
+    margin-left: 10%;
+    top: 0;
+    display: block;
+    width: 77%;
+    height: 720px;
+    margin-right: auto;
   }
 
   .header {
@@ -1155,7 +1316,41 @@ a {
   }
 
   .cardpic {
+    height: 448px !important;
+    width: 100%;
+    margin-top: 30px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+
+  #c1 {
     display: none;
+    width: 100%;
+    margin-top: 32px !important;
+    height: 370px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+
+  #title {
+    top: 0;
+  }
+
+  #popup_window {
+    overflow: auto;
+  }
+
+  #cover {
+    position: fixed;
+    overflow: auto;
+    background: #6070ff;
+    opacity: 0.97;
+    background-size: cover;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    mix-blend-mode: multiply;
+    backdrop-filter: blur(6px);
   }
 
   .worksec1d {
@@ -1283,6 +1478,22 @@ a {
   .desktop-mv-lang {
     margin-left: -35px;
     margin-top: -100px;
+  }
+
+  #popup-btn {
+    padding-right: 80px;
+    display: flex;
+    padding-bottom: 200px;
+    flex-grow: 0;
+    order: 1;
+    padding-top: 0;
+    justify-content: space-evenly;
+    gap: 10%;
+  }
+
+  #dev {
+    justify-content: flex-start;
+    margin-left: -38px;
   }
 
   .abouttxt {
@@ -1423,6 +1634,14 @@ a {
     margin: -10px 27px 30px 2px;
   }
 
+  .dsk-pop {
+    gap: 16px;
+    padding-top: 1% !important;
+    margin-top: 160px;
+    padding-left: 0;
+    width: 80%;
+  }
+
   textarea {
     height: 170px;
     background: #fff;
@@ -1435,6 +1654,28 @@ a {
     line-height: 20px;
     color: #b3bac5;
     padding-left: 16px;
+  }
+
+  .pop-dsk-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #discparapop {
+    flex: 2;
+    width: 92%;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: normal;
+    height: 146px;
+    line-height: 24px;
+  }
+
+  #pop-group-tech-live {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    column-gap: 1%;
   }
 
   .form-button {
@@ -1545,21 +1786,26 @@ a {
 /* Animations and transition portofolio sentayhu */
 .btn-hover:hover {
   color: white;
-  background-image: linear-gradient(
-    to right,
-    #25aae1,
-    #4481eb,
-    #04befe,
-    #3f86ed
-  );
+  background-image:
+    linear-gradient(
+      to right,
+      #25aae1,
+      #4481eb,
+      #04befe,
+      #3f86ed
+    );
   box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
 }
 
 h1 {
   text-align: center;
   color: white;
-  text-shadow: 0 1px 0 #efefef, 0 2px 0 #efefef, 0 3px 0 #efefef,
-    0 4px 0 #efefef, 0 30px 5px rgba(0, 0, 0, 0.1);
+  text-shadow:
+    0 1px 0 #efefef,
+    0 2px 0 #efefef,
+    0 3px 0 #efefef,
+    0 4px 0 #efefef,
+    0 30px 5px rgba(0, 0, 0, 0.1);
   animation: float 3s linear infinite;
   animation-direction: alternate;
 }
