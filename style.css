@@ -29,11 +29,10 @@ a {
     display: none;
   }
 
-  #technologyul 
-  {
+  #technologyul {
     margin-top: -84px;
-  gap:0px;  
-  padding-left: 53px;
+    gap: 0;
+    padding-left: 53px;
   }
 
   #dev {
@@ -47,7 +46,7 @@ a {
     z-index: 4;
     margin-top: 10px;
     position: fixed;
-    border: 2px solid #A7AEFF;
+    border: 2px solid #a7aeff;
     border-radius: 16px;
     margin-left: 23%;
     top: 0;
@@ -75,15 +74,14 @@ a {
     display: flex;
     justify-content: space-between;
   }
-#btn-project
-{
-  margin: auto;
-}
 
-#btn-project1
-{
-  margin: auto;
-}
+  #btn-project {
+    margin: auto;
+  }
+
+  #btn-project1 {
+    margin: auto;
+  }
 
   #popup-btn {
     display: flex;
@@ -402,12 +400,13 @@ a {
     margin-top: -40px;
     margin-left: 45%;
   }
-#lang1
-{
-  margin: 3px;
-  padding-left: 7px;
-  text-align: center;
-}
+
+  #lang1 {
+    margin: 3px;
+    padding-left: 7px;
+    text-align: center;
+  }
+
   .lang1 {
     background-color: #f7f7f9;
     gap: 1px;
@@ -649,9 +648,8 @@ a {
     gap: 20px;
   }
 
-  #technologyul
-  {
-  gap:9px;
+  #technologyul {
+    gap: 9px;
   }
 
   .header {
@@ -721,7 +719,7 @@ a {
     z-index: 4;
     margin-top: 10px;
     position: fixed;
-    border: 2px solid #A7AEFF;
+    border: 2px solid #a7aeff;
     border-radius: 16px;
     margin-left: 8%;
     top: 0;
@@ -1256,7 +1254,7 @@ a {
     z-index: 4;
     margin-top: 10px;
     position: fixed;
-    border: 2px solid #A7AEFF;
+    border: 2px solid #a7aeff;
     border-radius: 16px;
     margin-left: 10%;
     top: 0;
@@ -1559,10 +1557,9 @@ a {
     flex: none;
     border: 1px solid #6070ff;
   }
-  
-  #technologyul
-  {
-  gap:9px;
+
+  #technologyul {
+    gap: 9px;
   }
 
   .arrow {
