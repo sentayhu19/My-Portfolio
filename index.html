@@ -18,10 +18,11 @@
 
 </head>
 <body id="body">
+  <div id="popup_window"></div>
     <main class="main1">
     <header class="container">
-        <div id="cover" class="desktop-hidden">
-            <a href="#" ><img id="coverItem" src="./assets/images/Icon%20-%20Cancel.png" alt="Close Cover"></a>
+        <div id="cover" >
+            <a href="#" ><img id="coverItem" class="desktop-hidden" src="./assets/images/Icon%20-%20Cancel.png" alt="Close Cover"></a>
             <ul id="menu" class="desktop-hidden"> 
                 <li ><a href="#project" class="n2">Portofolio </a></li>
                 <li ><a href="#about" class="n2">About</a></li>
@@ -65,13 +66,14 @@
    <li> <a href="#"> <img src="assets//images/medium.svg" alt="medium"></a> </li>
   <li>   <a href="#"><img src="assets//images/github.svg" alt="github"></a>  </li>
    <li> <a href="#"> <img src="assets//images/angellist.svg" alt="angellist"></a> </li>
-</ul>  </div> 
+</ul> 
+ </div> 
 </section>
 <section class="works1 sz sz2" id="project">
     <div class="worksec1 worksec1d">
         <div class="worksf dsk-width1" >
     <img src="./assets/images/Snapshoot%20Portfolio.svg" class="cardpic" alt="pic">
-    <img src="./assets/images/card_1Snapshoot_Portfolio.svg" class="cardpic1" alt="pic">
+  
 </div>
 <!-- work sec start******** -->
 <div class="worksf">
@@ -95,7 +97,7 @@
          <li class="lang">CSS</li>
          <li class="lang">JavaScript</li>
      </ul> </div>
-     <button type="button" class="project1-btn btn-hover">See Project</button>
+     <button type="button" class="project1-btn btn-hover" onClick="setpopup(this.id)" id="p1">See Project</button>
     </div>
 </div>
 <!-- ** END OF CARD 1 **-->
@@ -123,24 +125,23 @@
              <li class="lang">CSS</li>
              <li class="lang">JavaScript</li>
          </ul> </div>
-         <button type="button" class="project1-btn btn-hover">See Project</button>
+         <button type="button" class="project1-btn btn-hover" onClick="setpopup(this.id)" id="p2">See Project</button>
 </div>
 <!-- work sec start******** -->
 <div class="worksf mobile-hidden">
     
-    <img src="./assets/images/Snapshoot%20Portfolio3.svg" class="cardpic1" alt="pic">
+    <img src="./assets/images/Snapshoot%20Portfolio1.svg" class="cardpic1" alt="pic">
 </div>
 </div>
 <!-- ** END OF CARD 2 **-->
     <div class="worksec1 worksec1d">
         <div class="worksf" >
     <img src="./assets/images/Snapshoot%20Portfolio2.svg" class="cardpic" alt="pic">
-    <img src="./assets/images/Snapshoot%20Portfolio.svg" class="cardpic1" alt="pic">
 </div>
 <!-- work sec start******** -->
 <div class="worksf dsk-width2">
     <h2 class="tonic1 desktop-hidden">Toic</h2>
-    <h2 class="tonic2 mobile-hidden">Facebook 360</h2>
+    <h2 class="tonic2 mobile-hidden">Toic</h2>
  <br>
     <div class="social-mv">
      <ul class="connect-via card-info desktop-mv mobile-mv">
@@ -159,7 +160,7 @@
          <li class="lang">CSS</li>
          <li class="lang">JavaScript</li>
      </ul> </div>
-     <button type="button" class="project1-btn btn-hover">See Project</button>
+     <button type="button" class="project1-btn btn-hover" onClick="setpopup(this.id)" id="p3">See Project</button>
     </div>
 </div>
 <!-- ** END OF CARD 3 **-->
@@ -170,7 +171,7 @@
             </div>
             <div>
             <h2 class="tonic1 desktop-hidden">Multi-Post Stories</h2>
-    <h2 class="tonic2 mobile-hidden">Uber Navigation</h2> <br>
+    <h2 class="tonic2 mobile-hidden">Multi-Post Stories</h2> <br>
             <div class="social-mv">
              <ul class="connect-via card-info desktop-mv mobile-mv">
                  <li class="canopy">Canopy </li>
@@ -188,11 +189,11 @@
                  <li class="lang">CSS</li>
                  <li class="lang">JavaScript</li>
              </ul> </div>
-             <button type="button" class="project1-btn btn-hover">See Project</button></div>
+             <button type="button" class="project1-btn btn-hover" onClick="setpopup(this.id)" id="p4">See Project</button></div>
     </div>
     <!-- work sec start******** -->
     <div class="worksf mobile-hidden">
-        <img src="./assets/images/Snapshoot%20Portfolio1.svg" class="cardpic1" alt="pic"> <!--DSK-->
+        <img src="./assets/images/Snapshoot%20Portfolio.svg" class="cardpic1" alt="pic"> <!--DSK-->
     </div>
     </div>
 </section>
@@ -278,6 +279,7 @@
     </div>
     </div>
 </footer>
+
 </main>
 <script src="./index.js"></script>
 </body>
