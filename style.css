@@ -29,6 +29,13 @@ a {
     display: none;
   }
 
+  #technologyul 
+  {
+    margin-top: -84px;
+  gap:0px;  
+  padding-left: 53px;
+  }
+
   #dev {
     padding-bottom: 60px;
     margin-top: -70px;
@@ -40,9 +47,9 @@ a {
     z-index: 4;
     margin-top: 10px;
     position: fixed;
-    border: red solid 2px;
+    border: 2px solid #A7AEFF;
     border-radius: 16px;
-    margin-left: 20%;
+    margin-left: 23%;
     top: 0;
     display: block;
     width: 76%;
@@ -61,12 +68,22 @@ a {
   #title {
     margin-top: -30px;
     padding-bottom: 50px;
+    padding-left: 8px !important;
   }
 
   .lang-arrow {
     display: flex;
     justify-content: space-between;
   }
+#btn-project
+{
+  margin: auto;
+}
+
+#btn-project1
+{
+  margin: auto;
+}
 
   #popup-btn {
     display: flex;
@@ -385,10 +402,15 @@ a {
     margin-top: -40px;
     margin-left: 45%;
   }
-
+#lang1
+{
+  margin: 3px;
+  padding-left: 7px;
+  text-align: center;
+}
   .lang1 {
     background-color: #f7f7f9;
-    gap: 20px;
+    gap: 1px;
     width: 100%;
   }
 
@@ -627,6 +649,11 @@ a {
     gap: 20px;
   }
 
+  #technologyul
+  {
+  gap:9px;
+  }
+
   .header {
     width: 920px;
     height: 122px;
@@ -694,7 +721,7 @@ a {
     z-index: 4;
     margin-top: 10px;
     position: fixed;
-    border: red solid 2px;
+    border: 2px solid #A7AEFF;
     border-radius: 16px;
     margin-left: 8%;
     top: 0;
@@ -740,6 +767,7 @@ a {
 
   #title {
     top: 0;
+    padding-left: 8px !important;
   }
 
   #popup_window {
@@ -1228,7 +1256,7 @@ a {
     z-index: 4;
     margin-top: 10px;
     position: fixed;
-    border: red solid 2px;
+    border: 2px solid #A7AEFF;
     border-radius: 16px;
     margin-left: 10%;
     top: 0;
@@ -1334,6 +1362,7 @@ a {
 
   #title {
     top: 0;
+    padding-left: 8px !important;
   }
 
   #popup_window {
@@ -1529,6 +1558,11 @@ a {
     color: #396df2;
     flex: none;
     border: 1px solid #6070ff;
+  }
+  
+  #technologyul
+  {
+  gap:9px;
   }
 
   .arrow {

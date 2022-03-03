@@ -95,12 +95,12 @@ const popupCode = `
      </div>
      <div id="pop-group-tech-live">
      <div class="social-mv dsk-pop" id="technology">
-     <ul class="connect-via desktop-mv-lang ">
+     <ul class="connect-via desktop-mv-lang" id="technologyul">
         ${li}
      </ul> </div>
      <div id="popup-btn">
-     <button type="button" class="project1-btn btn-hover" id="btn-project">${e.popBtn1} <img src="./assets/images/btniconexp.svg" alt="exp"></button>
-     <button type="button" class="project1-btn btn-hover id="btn-project">${e.popBtn2}<img src="./assets/images/btnicongithub.svg" alt="exp"></button>
+     <button type="button" class="project1-btn btn-hover" id="btn-project">${e.popBtn1}<img src="./assets/images/btniconexp.svg" alt="see live"></button>
+     <button type="button" class="project1-btn btn-hover" id="btn-project1">${e.popBtn2}<img src="./assets/images/btnicongithub.svg" alt="see source"></button>
     </div>
     </div>
     </div>
@@ -109,13 +109,14 @@ const popupCode = `
     `;
     popup_window.innerHTML = popupCode;
      
-  document.getElementById('title').style.cssText = "display: block;";
-  document.getElementById('technology').style.cssText ="padding-top: 430px";
+  document.getElementById('title').style.cssText = "display: block; padding-left: 56px;";
+  document.getElementById('technology').style.cssText ="padding-top: 430px;";
   document.getElementById('closeWindow').style.cssText ="float: right; padding-bottom: 10px width: 24px; height: 24px; background-color: white; border: 0px";
   document.getElementById('cover').style.cssText = 'display: block; z-index: 3; width: 100%; height: 100%; background: #C1C7D0;';
   document.getElementById('menu').style.cssText = 'display: none'; 
   document.getElementById('body').style.cssText = 'overflow: hidden;';
-  document.getElementById('btn-project').style.cssText = 'justify-content: space-between;';
+  document.getElementById('btn-project').style.cssText = 'justify-content: space-between; width: 142px;';
+  document.getElementById('btn-project1').style.cssText = 'justify-content: space-between; width: 142px;';
  document.getElementById("c1").style.cssText="display: block; margin: 8px; margin-top: -45px; width: 95%;";
   }
   )
