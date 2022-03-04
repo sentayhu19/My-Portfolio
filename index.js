@@ -122,24 +122,6 @@ function closeWinfun() {
   document.getElementById('cover').style.cssText = 'display: none';
   document.getElementById('body').style.cssText = 'overflow: none;';
 }
-
-// const email =document.querySelector('email').value;
-
-// form.addEventListener('submit', (e) =>{
-//   e.preventDefault();
-//   console.log("submit clicked!");
-// if(email != email.toLowerCase())
-// {
-// errorMsg =innerHTML= msg;
-// console.log("Error Msg show");
-
-// }
-// else{
-//   console.log("prevent def called!");
-//   console.log("email is "+email);
-// }
-//   }
-// );
 const form1 = document.querySelector('#form-cont');
 const errorMsg = document.getElementById('error-msg');
 const email = document.getElementById('email');
