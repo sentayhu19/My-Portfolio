@@ -127,3 +127,38 @@ function closeWinfun()
   document.getElementById('cover').style.cssText = 'display: none'; 
   document.getElementById('body').style.cssText = 'overflow: none;';
 };
+
+
+
+// const email =document.querySelector('email').value;
+ 
+// form.addEventListener('submit', (e) =>{
+//   e.preventDefault();
+//   console.log("submit clicked!");
+// if(email != email.toLowerCase())
+// {
+// errorMsg =innerHTML= msg;
+// console.log("Error Msg show");
+
+// }
+// else{
+//   console.log("prevent def called!");
+//   console.log("email is "+email);
+// }
+//   }
+// );
+const form1 = document.querySelector("#form-cont");
+const errorMsg = document.getElementById('error-msg');
+const msg =  `<p class="error-msg"> Please write your email in lower case <p> `;
+var regex= /^[a-z0-9+_.-]+@[a-z0-9.-]+$/;
+form1.addEventListener('submit', (e) => {
+  const { value } = email;
+  if (value.match(regex)) { 
+   } else {
+    errorMsg.innerHTML= msg;
+    e.preventDefault();
+  }
+});
+
+
+

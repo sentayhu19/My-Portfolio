@@ -3,6 +3,11 @@
   box-sizing: border-box;
 }
 
+.submit-group {
+  display: flex;
+  gap: 8px;
+}
+
 a {
   text-decoration: none;
   color: #344563;
