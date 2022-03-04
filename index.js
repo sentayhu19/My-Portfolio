@@ -25,54 +25,51 @@ const project = [
     featuredImage: './assets/images/Snapshoot%20Portfolio.svg',
     discription:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsumhan printer took a galley of type and scrambled it 1960s with the releawn printer ",
-    technologies: ['HTML', 'CSS', 'JavaScript','Ruby'],
+    technologies: ['HTML', 'CSS', 'JavaScript', 'Ruby'],
     popBtn1: 'see live',
-    popBtn2: 'see scource'
+    popBtn2: 'see scource',
   },
-{
-  id: 'p2',
-  name: 'MultiPost stories',
-  featuredImage: './assets/images/Snapshoot%20Portfolio1.svg',
-  discription:
+  {
+    id: 'p2',
+    name: 'MultiPost stories',
+    featuredImage: './assets/images/Snapshoot%20Portfolio1.svg',
+    discription:
     "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsumhan printer took a galley of type and scrambled it 1960s with the releawn printer ",
-  technologies: ['HTML', 'CSS', 'JavaScript','Ruby'],
-  popBtn1: 'see live',
-  popBtn2: 'see scource'
+    technologies: ['HTML', 'CSS', 'JavaScript', 'Ruby'],
+    popBtn1: 'see live',
+    popBtn2: 'see scource',
 
-},{
-id: 'p3',
-name: 'Tonic',
-featuredImage: './assets/images/Snapshoot%20Portfolio2.svg',
-discription:
+  }, {
+    id: 'p3',
+    name: 'Tonic',
+    featuredImage: './assets/images/Snapshoot%20Portfolio2.svg',
+    discription:
   "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsumhan printer took a galley of type and scrambled it 1960s with the releawn printer  ",
-technologies: ['HTML', 'CSS', 'JavaScript','Ruby'],
-popBtn1: 'see live',
-popBtn2: 'see scource'
-},
-{
-  id: 'p4',
-  name: 'Multipost stories',
-  featuredImage: './assets/images/Snapshoot%20Portfolio.svg',
-  discription:
+    technologies: ['HTML', 'CSS', 'JavaScript', 'Ruby'],
+    popBtn1: 'see live',
+    popBtn2: 'see scource',
+  },
+  {
+    id: 'p4',
+    name: 'Multipost stories',
+    featuredImage: './assets/images/Snapshoot%20Portfolio.svg',
+    discription:
     "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsumhan printer took a galley of type and scrambled it 1960s with the releawn printer ",
-  technologies: ['HTML', 'CSS', 'JavaScript','Ruby'],
-  popBtn1: 'see live',
-  popBtn2: 'see scource'
+    technologies: ['HTML', 'CSS', 'JavaScript', 'Ruby'],
+    popBtn1: 'see live',
+    popBtn2: 'see scource',
 
-}
+  },
 ];
-const p1 = document.querySelector('#p1');
-function setpopup(btnID)
-{
- li='';
-  project.filter(project => project.id == btnID).forEach((e)=>
-  {
-const popup_window = document.getElementById('popup_window');
-  e.technologies.forEach((project) =>
-  {
-    li+= `<li class="lang" id="lang1">${project}</li>`
-  });
-const popupCode = `
+
+function setpopup(btnID) {
+  let li = '';
+  project.filter((project) => project.id === btnID).forEach((e) => {
+    const popupWindow = document.getElementById('popup_window');
+    e.technologies.forEach((project) => {
+      li += `<li class="lang" id="lang1">${project}</li>`;
+    });
+    const popupCode = `
 <div class="worksec1 worksec1d1" id="worksec1d">
     <div class="worksf">
     <div id="popupHead">
@@ -107,31 +104,27 @@ const popupCode = `
     <div>
     </div>
     `;
-    popup_window.innerHTML = popupCode;
-     
-  document.getElementById('title').style.cssText = "display: block; padding-left: 56px;";
-  document.getElementById('technology').style.cssText ="padding-top: 430px;";
-  document.getElementById('closeWindow').style.cssText ="float: right; padding-bottom: 10px width: 24px; height: 24px; background-color: white; border: 0px";
-  document.getElementById('cover').style.cssText = 'display: block; z-index: 3; width: 100%; height: 100%; background: #C1C7D0;';
-  document.getElementById('menu').style.cssText = 'display: none'; 
-  document.getElementById('body').style.cssText = 'overflow: hidden;';
-  document.getElementById('btn-project').style.cssText = 'justify-content: space-between; width: 142px;';
-  document.getElementById('btn-project1').style.cssText = 'justify-content: space-between; width: 142px;';
- document.getElementById("c1").style.cssText="display: block; margin: 8px; margin-top: -45px; width: 95%;";
-  }
-  )
-};
-function closeWinfun() 
- {
-  document.getElementById('worksec1d').style.cssText = "display: none";
-  document.getElementById('cover').style.cssText = 'display: none'; 
+    popupWindow.innerHTML = popupCode;
+
+    document.getElementById('title').style.cssText = 'display: block; padding-left: 56px;';
+    document.getElementById('technology').style.cssText = 'padding-top: 430px;';
+    document.getElementById('closeWindow').style.cssText = 'float: right; padding-bottom: 10px width: 24px; height: 24px; background-color: white; border: 0px';
+    document.getElementById('cover').style.cssText = 'display: block; z-index: 3; width: 100%; height: 100%; background: #C1C7D0;';
+    document.getElementById('menu').style.cssText = 'display: none';
+    document.getElementById('body').style.cssText = 'overflow: hidden;';
+    document.getElementById('btn-project').style.cssText = 'justify-content: space-between; width: 142px;';
+    document.getElementById('btn-project1').style.cssText = 'justify-content: space-between; width: 142px;';
+    document.getElementById('c1').style.cssText = 'display: block; margin: 8px; margin-top: -45px; width: 95%;';
+  });
+}
+function closeWinfun() {
+  document.getElementById('worksec1d').style.cssText = 'display: none';
+  document.getElementById('cover').style.cssText = 'display: none';
   document.getElementById('body').style.cssText = 'overflow: none;';
-};
-
-
+}
 
 // const email =document.querySelector('email').value;
- 
+
 // form.addEventListener('submit', (e) =>{
 //   e.preventDefault();
 //   console.log("submit clicked!");
@@ -147,18 +140,17 @@ function closeWinfun()
 // }
 //   }
 // );
-const form1 = document.querySelector("#form-cont");
+const form1 = document.querySelector('#form-cont');
 const errorMsg = document.getElementById('error-msg');
-const msg =  `<p class="error-msg"> Please write your email in lower case <p> `;
-var regex= /^[a-z0-9+_.-]+@[a-z0-9.-]+$/;
+const msg = '<p class="error-msg"> Please write your email in lower case <p> ';
+const regex = /^[a-z0-9+_.-]+@[a-z0-9.-]+$/;
 form1.addEventListener('submit', (e) => {
   const { value } = email;
-  if (value.match(regex)) { 
-   } else {
-    errorMsg.innerHTML= msg;
+  if (value.match(regex)) {
+  } else {
+    errorMsg.innerHTML = msg;
     e.preventDefault();
   }
 });
-
-
-
+setpopup("a");
+closeWinfun();
