@@ -8,7 +8,7 @@
   gap: 8px;
 }
 
-.error-msg{
+.error-msg {
   color: red;
   margin-top: 10px;
   font-style: normal;
@@ -17,7 +17,6 @@
   width: 221px;
   }
   
-
 a {
   text-decoration: none;
   color: #344563;
