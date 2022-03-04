@@ -142,15 +142,15 @@ function closeWinfun() {
 // );
 const form1 = document.querySelector('#form-cont');
 const errorMsg = document.getElementById('error-msg');
+const email = document.getElementById('email');
 const msg = '<p class="error-msg"> Please write your email in lower case <p> ';
 const regex = /^[a-z0-9+_.-]+@[a-z0-9.-]+$/;
 form1.addEventListener('submit', (e) => {
   const { value } = email;
-  if (value.match(regex)) {
-  } else {
+  if (!(value.match(regex))) {
     errorMsg.innerHTML = msg;
     e.preventDefault();
   }
 });
-setpopup("a");
+setpopup('a');
 closeWinfun();
