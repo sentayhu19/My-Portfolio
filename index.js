@@ -128,7 +128,6 @@ const email = document.getElementById('email');
 const msg = '<p class="error-msg"> Please write your email in lower case <p> ';
 const regex = /^[a-z0-9+_.-]+@[a-z0-9.-]+$/;
 form1.addEventListener('submit', (e) => {
-  console.log('Submit clicked');
   const { value } = email;
   const name = document.getElementById('name').value;
   const description = document.getElementById('description').value;
@@ -136,19 +135,16 @@ form1.addEventListener('submit', (e) => {
     errorMsg.innerHTML = msg;
     e.preventDefault();
   } else {
-    console.log('Saving data');
+    // Saving Data
     const contactData = { user_name: name, user_email: value, user_description: description };
     const storeData = JSON.stringify(contactData);
     localStorage.setItem('contactData', storeData);
-    console.log('Saved');
   }
 });
 
 function prefill() {
   const input = document.querySelectorAll('.input');
-  const selectValue = (localStorage.contactData);
   const storedData = JSON.parse(localStorage.contactData);
-  const { name, email, description } = JSON.parse(localStorage.contactData);
   input[0].value = storedData.user_name;
   input[1].value = storedData.user_email;
   input[2].value = storedData.user_description;
