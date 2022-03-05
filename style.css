@@ -190,7 +190,7 @@ a {
   .container {
     display: flex;
     flex-direction: row;
-    column-gap: 77%;
+    column-gap: 65%;
     margin-top: 22px;
   }
 
