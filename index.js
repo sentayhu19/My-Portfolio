@@ -128,11 +128,21 @@ const email = document.getElementById('email');
 const msg = '<p class="error-msg"> Please write your email in lower case <p> ';
 const regex = /^[a-z0-9+_.-]+@[a-z0-9.-]+$/;
 form1.addEventListener('submit', (e) => {
+  console.log('Submit clicked');
   const { value } = email;
+  const name = document.getElementById('name').value;
+  const description = document.getElementById('description').value;
   if (!(value.match(regex))) {
     errorMsg.innerHTML = msg;
     e.preventDefault();
+  } else {
+    console.log('Saving data');
+    const contactData = { user_name: name, user_email: value, user_description: description };
+    const storeData = JSON.stringify(contactData);
+    localStorage.setItem('contactData', storeData);
+    console.log('Saved');
   }
 });
+
 setpopup('a');
 closeWinfun();
