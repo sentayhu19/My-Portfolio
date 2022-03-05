@@ -144,5 +144,16 @@ form1.addEventListener('submit', (e) => {
   }
 });
 
+function prefill() {
+  const input = document.querySelectorAll('.input');
+  const selectValue = (localStorage.contactData);
+  const storedData = JSON.parse(localStorage.contactData);
+  const { name, email, description } = JSON.parse(localStorage.contactData);
+  input[0].value = storedData.user_name;
+  input[1].value = storedData.user_email;
+  input[2].value = storedData.user_description;
+}
+
+prefill();
 setpopup('a');
 closeWinfun();
