@@ -6,7 +6,7 @@
 
 ## Live demo
 
-[Live Demo Link](https://sentayhu19.github.io/Portfolio-setup-and-mobile-version-skeleton/)
+[Live Demo Link](https://sentayhu19.github.io/My-Portfolio/)
 
 ## Built With
 
@@ -22,7 +22,7 @@
 
 #### Cloning the project
 
-git clone https://github.com/sentayhu19/portofolio-setup-nd-mobile-version-skeleton <Your-Build-Directory>
+git clone https://github.com/sentayhu19/My-Portfolio <Your-Build-Directory>
 
 ## Getting packages and debuging with Stylelint
 
@@ -54,7 +54,7 @@ npx hint .
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/sentayhu19/Portfolio-setup-and-mobile-version-skeleton/issues).
+Feel free to check the [issues page](https://github.com/sentayhu19/My-Portfolio/issues).
 
 ## Show your support
 
