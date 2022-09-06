@@ -24,35 +24,35 @@ const project = [
     name: 'Cloud-app-with-tailwind',
     featuredImage: './assets/images/project-screenshoot/cloud.png',
     discription:
-      "A Cloud Management website that has support and service pages built with TailwindCSS. ",
+      'A Cloud Management website that has support and service pages built with TailwindCSS. ',
     technologies: ['HTML', 'CSS', 'React and Redux'],
     popBtn1: 'see live',
     popBtn2: 'see scource',
     srclnk: 'https://github.com/sentayhu19/Cloud-app-with-tailwind',
-    lvlnk: 'https://cloud-app-with-tailwind.vercel.app/'
+    lvlnk: 'https://cloud-app-with-tailwind.vercel.app/',
   },
   {
     id: 'p2',
     name: 'Arada-chat',
     featuredImage: './assets/images/Snapshoot%20Portfolio1.svg',
-    discription: "This is a chatting web app created using react-redux and firebase. Users can create a channel and talk on the channel and DM each other. ",
+    discription: 'This is a chatting web app created using react-redux and firebase. Users can create a channel and talk on the channel and DM each other. ',
     technologies: ['HTML', 'CSS', 'JavaScript', 'React/Redux and Firebase'],
     popBtn1: 'see live',
     popBtn2: 'see scource',
     srclnk: 'https://github.com/sentayhu19/Arada-chat',
-    lvlnk: 'https://arada-chat.vercel.app/'
+    lvlnk: 'https://arada-chat.vercel.app/',
 
   }, {
     id: 'p3',
     name: 'ShowBox Movies',
     featuredImage: './assets/images/project-screenshoot/movie.png',
     discription:
-  "Search for info about your favorite movies and tv shows on the ShowBox Movie Database",
+  'Search for info about your favorite movies and tv shows on the ShowBox Movie Database',
     technologies: ['HTML', 'CSS', 'JavaScript', 'Webpack'],
     popBtn1: 'see live',
     popBtn2: 'see scource',
     srclnk: 'https://github.com/sentayhu19/Movie-Database',
-    lvlnk: 'https://deyemiobaa.github.io/Movie-Database/'
+    lvlnk: 'https://deyemiobaa.github.io/Movie-Database/',
   },
   {
     id: 'p4',
