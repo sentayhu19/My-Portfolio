@@ -1,5 +1,3 @@
-import Aos from 'aos';
-import 'aos/dist/aos.css';
 const hamList = document.querySelector('#ham_menu');
 const section = document.querySelectorAll('.n2');
 const close = document.querySelector('#coverItem');
