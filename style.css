@@ -17,6 +17,14 @@
   width: 221px;
 }
 
+.logo-spin {
+  transition: transform 0.7s ease-in-out;
+}
+
+.logo-spin:hover {
+  transform: rotate(360deg);
+}
+
 a {
   text-decoration: none;
   color: #344563;
@@ -1851,7 +1859,6 @@ h1 {
     0 3px 0 #efefef,
     0 4px 0 #efefef,
     0 30px 5px rgba(0, 0, 0, 0.1);
-  animation: float 3s linear infinite;
   animation-direction: alternate;
 }
 
