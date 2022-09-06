@@ -1,4 +1,4 @@
-* {
+  * {
   font-family: "Poppins", sans-serif;
   box-sizing: border-box;
 }
@@ -15,6 +15,12 @@
   font-weight: normal;
   font-size: 16px;
   width: 221px;
+}
+.logo-spin{
+  transition: transform .7s ease-in-out;
+}
+.logo-spin:hover{
+  transform: rotate(360deg);
 }
 
 a {
@@ -1851,7 +1857,6 @@ h1 {
     0 3px 0 #efefef,
     0 4px 0 #efefef,
     0 30px 5px rgba(0, 0, 0, 0.1);
-  animation: float 3s linear infinite;
   animation-direction: alternate;
 }
 

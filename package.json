@@ -29,6 +29,7 @@
     "stylelint-scss": "^3.21.0"
   },
   "dependencies": {
+    "aos": "^2.3.4",
     "gh-pages": "^3.2.3"
   }
 }

@@ -1,3 +1,5 @@
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 const hamList = document.querySelector('#ham_menu');
 const section = document.querySelectorAll('.n2');
 const close = document.querySelector('#coverItem');
@@ -21,33 +23,38 @@ close.addEventListener('click', () => {
 const project = [
   {
     id: 'p1',
-    name: 'Tonic',
-    featuredImage: './assets/images/Snapshoot%20Portfolio.svg',
+    name: 'Cloud-app-with-tailwind',
+    featuredImage: './assets/images/project-screenshoot/cloud.png',
     discription:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsumhan printer took a galley of type and scrambled it 1960s with the releawn printer ",
-    technologies: ['HTML', 'CSS', 'JavaScript', 'Ruby'],
+      "A Cloud Management website that has support and service pages built with TailwindCSS. ",
+    technologies: ['HTML', 'CSS', 'React and Redux'],
     popBtn1: 'see live',
     popBtn2: 'see scource',
+    srclnk: 'https://github.com/sentayhu19/Cloud-app-with-tailwind',
+    lvlnk: 'https://cloud-app-with-tailwind.vercel.app/'
   },
   {
     id: 'p2',
-    name: 'MultiPost stories',
+    name: 'Arada-chat',
     featuredImage: './assets/images/Snapshoot%20Portfolio1.svg',
-    discription:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsumhan printer took a galley of type and scrambled it 1960s with the releawn printer ",
-    technologies: ['HTML', 'CSS', 'JavaScript', 'Ruby'],
+    discription: "This is a chatting web app created using react-redux and firebase. Users can create a channel and talk on the channel and DM each other. ",
+    technologies: ['HTML', 'CSS', 'JavaScript', 'React/Redux and Firebase'],
     popBtn1: 'see live',
     popBtn2: 'see scource',
+    srclnk: 'https://github.com/sentayhu19/Arada-chat',
+    lvlnk: 'https://arada-chat.vercel.app/'
 
   }, {
     id: 'p3',
-    name: 'Tonic',
-    featuredImage: './assets/images/Snapshoot%20Portfolio2.svg',
+    name: 'ShowBox Movies',
+    featuredImage: './assets/images/project-screenshoot/movie.png',
     discription:
-  "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsumhan printer took a galley of type and scrambled it 1960s with the releawn printer  ",
-    technologies: ['HTML', 'CSS', 'JavaScript', 'Ruby'],
+  "Search for info about your favorite movies and tv shows on the ShowBox Movie Database",
+    technologies: ['HTML', 'CSS', 'JavaScript', 'Webpack'],
     popBtn1: 'see live',
     popBtn2: 'see scource',
+    srclnk: 'https://github.com/sentayhu19/Movie-Database',
+    lvlnk: 'https://deyemiobaa.github.io/Movie-Database/'
   },
   {
     id: 'p4',
@@ -96,8 +103,8 @@ function setpopup(btnID) {
         ${li}
      </ul> </div>
      <div id="popup-btn">
-     <button type="button" class="project1-btn btn-hover" id="btn-project">${e.popBtn1}<img src="./assets/images/btniconexp.svg" alt="see live"></button>
-     <button type="button" class="project1-btn btn-hover" id="btn-project1">${e.popBtn2}<img src="./assets/images/btnicongithub.svg" alt="see source"></button>
+     <button type="button" class="project1-btn btn-hover" id="btn-project"><a href=${e.lvlnk}>${e.popBtn1}</a><img src="./assets/images/btniconexp.svg" alt="see live"></button>
+     <button type="button" class="project1-btn btn-hover" id="btn-project1"><a href=${e.srclnk}>${e.popBtn2}</a><img src="./assets/images/btnicongithub.svg" alt="see source"></button>
     </div>
     </div>
     </div>
