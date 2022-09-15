@@ -7,10 +7,12 @@
   display: flex;
   gap: 8px;
 }
-.sz{
+
+.sz {
   width: 60px;
   padding-right: 25px;
 }
+
 .error-msg {
   color: red;
   margin-top: 10px;

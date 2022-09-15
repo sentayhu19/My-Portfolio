@@ -59,7 +59,7 @@ const project = [
     name: 'Multipost stories',
     featuredImage: './assets/images/project-screenshoot/e-voting.png',
     discription:
-    "E-voting system for Ethiopia is a web site that allows registration of voters, polling stations, constituency , political parties and individual candidates and allow voter to make vote and show progress for each parties.",
+    'E-voting system for Ethiopia is a web site that allows registration of voters, polling stations, constituency , political parties and individual candidates and allow voter to make vote and show progress for each parties.',
     technologies: ['HTML', 'CSS', 'JavaScript', 'PHP'],
     popBtn1: 'see live',
     popBtn2: 'see scource',
