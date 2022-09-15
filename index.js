@@ -34,7 +34,7 @@ const project = [
   {
     id: 'p2',
     name: 'Arada-chat',
-    featuredImage: './assets/images/Snapshoot%20Portfolio1.svg',
+    featuredImage: './assets/images/project-screenshoot/arada-chat.png',
     discription: 'This is a chatting web app created using react-redux and firebase. Users can create a channel and talk on the channel and DM each other. ',
     technologies: ['HTML', 'CSS', 'JavaScript', 'React/Redux and Firebase'],
     popBtn1: 'see live',
@@ -57,13 +57,14 @@ const project = [
   {
     id: 'p4',
     name: 'Multipost stories',
-    featuredImage: './assets/images/Snapshoot%20Portfolio.svg',
+    featuredImage: './assets/images/project-screenshoot/e-voting.png',
     discription:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsumhan printer took a galley of type and scrambled it 1960s with the releawn printer ",
-    technologies: ['HTML', 'CSS', 'JavaScript', 'Ruby'],
+    "E-voting system for Ethiopia is a web site that allows registration of voters, polling stations, constituency , political parties and individual candidates and allow voter to make vote and show progress for each parties.",
+    technologies: ['HTML', 'CSS', 'JavaScript', 'PHP'],
     popBtn1: 'see live',
     popBtn2: 'see scource',
-
+    srclnk: 'https://github.com/sentayhu19/E-voting-system-for-Ethiopia',
+    lvlnk: 'https://github.com/sentayhu19/E-voting-system-for-Ethiopia',
   },
 ];
 
