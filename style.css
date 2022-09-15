@@ -7,7 +7,10 @@
   display: flex;
   gap: 8px;
 }
-
+.sz{
+  width: 60px;
+  padding-right: 25px;
+}
 .error-msg {
   color: red;
   margin-top: 10px;
@@ -46,7 +49,6 @@ a {
 
 @media only screen and (max-width: 780px) {
   /* for phone  * */
-
   #overlay {
     display: none;
   }
